@@ -1,6 +1,6 @@
 {
-  "name": "React Extension",
-  "description": "Chrome Extension in React!",
+  "name": "Bare minimum adblocker",
+  "description": "Bare minimum adblocker",
   "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
