@@ -34,7 +34,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve('src/static'),
+          from: path.resolve('src/static'), // includes rules.json
           to: path.resolve('dist'),
         }
       ]

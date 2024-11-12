@@ -9,12 +9,15 @@
     "128": "icon.png"
   },
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "webRequest",
+    "webRequestBlocking"
   ],
   "declarative_net_request":{
     "rule_resources": [
       {
-        "id":"ruleset_1",
+        "id": "ruleset_1",
         "enabled": true,
         "path": "rules.json"
       }
